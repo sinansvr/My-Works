@@ -1,0 +1,27 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.par{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    text-indent: 2rem;
+    direction: ltr;
+}
+
+.par span{
+    text-transform: uppercase;
+    font-variant: small-caps;
+}
+
+.par2{
+    text-transform: uppercase;
+    font-variant: small-caps;
+}
+
+.specing{
+    color: rgb(25, 27, 27);
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    line-height: 2;
+}

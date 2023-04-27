@@ -1,0 +1,18 @@
+#container{
+    background-color: bisque;
+}
+
+#container li{
+    background-color: yellowgreen;
+}
+
+#container2 ul li {
+  color: red;
+}
+#container2 > ul > li:nth-child(1) > ul > li:nth-child(1){
+    background-color: blueviolet;
+}
+
+/* #container2 li li {
+    background-color: blueviolet;
+} */

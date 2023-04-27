@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Sizing</title>
+    <style>
+        .box{
+            width: 200px;
+            border: 5px solid red;
+            padding: 10px;
+        }
+        .content{
+            
+            box-sizing: content-box;
+            background-color: antiquewhite;
+        }
+
+        .border{
+            box-sizing:border-box;
+            background-color: aquamarine;
+            
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Box Sizing</h1>
+
+    <div class="content box">content-box</div>
+    <div class="border box">border-box</div>
+    
+</body>
+</html>
